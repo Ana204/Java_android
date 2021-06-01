@@ -20,6 +20,16 @@ public class MainActivity extends AppCompatActivity {
         moto = new Moto("Preto", "2", "HONDA");
 
         System.out.println(carro.getCor() + " - " + carro.getRodas() + " - " + carro.getMarca());
+
+        carro.veiculoAndar();
+        carro.veiculoFrear();
+
+
         System.out.println(moto.getCor() + " - " + moto.getRodas() + " - " + moto.getMarca());
+
+        moto.veiculoAndar();
+        moto.veiculoFrear();
+
+
     }
 }

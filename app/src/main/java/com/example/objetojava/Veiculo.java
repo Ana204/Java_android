@@ -56,6 +56,6 @@ public class Veiculo {
     }
 
     public void veiculoFrear(){
-        System.out.println("Veiculo freiou");
+        System.out.println("Veiculo freou");
     }
 }
